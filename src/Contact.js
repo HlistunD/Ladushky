@@ -5,11 +5,11 @@ import facebook from "./facebook.png";
 import instagram from "./instagram.png";
 import what from "./what.png";
 import pen from "./pen.png";
-function ContactForm() {
+
+export default function Contact() {
 const [state, handleSubmit] = useForm("xvoljqoq");
 if (state.succeeded) {
-return 
-<p>Thanks for your text! I'll answer to you soon...</p>
+return <p>Thanks for your text! I'll answer to you soon...</p>
 ;
 }
 return (
@@ -59,11 +59,3 @@ return (
 </form>
 );
 }
-function App() {
-return (
-<div>
-    <ContactForm />
-</div>
-);
-}
-export default App;

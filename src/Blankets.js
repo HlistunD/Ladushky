@@ -11,7 +11,7 @@ export default function Blankets() {
         setBlankets((blankets => {
             blankets--;
             if(blankets < 0){
-                return data.lenght-1;
+                return data.length-1;
             }
             return blankets;
         }))
@@ -19,7 +19,7 @@ export default function Blankets() {
     const nextBlanket = () => {
         setBlankets((blankets =>{
             blankets++;
-            if(blankets > data.lenght-1){
+            if(blankets > data.length-1){
             blankets = 0;
             }
             return blankets;
