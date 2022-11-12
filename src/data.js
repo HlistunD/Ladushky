@@ -17,6 +17,8 @@ export const data =[
     filterItem: "light",
     sortItem: "withoutPic",
     image: Brauny,
+    description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
+    showMore: "false",
   },
   {
     id: 2,

@@ -4,7 +4,7 @@ import baby from "./MyBaby.jpg"
 export default function Ladushky() {
     return(
         <div className="cont">
-            <div className="back">
+            <div className="back ladushkyGen">
                 <img className="babyPic" src={baby} alt="babyBlanket" width="300px" height="450px"/>
                 <div className="describeLad">
                 <h1>What is it Ladushky?</h1>
