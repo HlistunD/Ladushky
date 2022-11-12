@@ -1,3 +1,174 @@
-h1 {
-  color: red;
+.products {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
+.product-card {
+padding: 1.5%;
+flex-basis: 16%;
+}
+.prodact-info {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Shadows Into Light Two', cursive;
+line-height: 0.1px;
+color: #45454D;
+font-weight:bolder;
+}
+.circl {
+  border-radius: 50%;
+}
+body {
+background-color: #F6F6F6;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+}
+.back {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F0F0F0; 
+  padding: 3px;
+  margin: 70px;
+  margin-top: 20px;
+  font-family: 'Shadows Into Light Two', cursive;
+  border-radius: 20px;
+  width: 90%;
+}
+.babyPic {
+  box-shadow: 2px 3px 4px #AAAAAA;
+  padding: 2px;
+  transform: rotate(-10deg);
+  margin-left: 15%;
+  margin-top: 60px;
+}
+.describeLad {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 17px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 60px;
+}
+.change {
+background-color: #888888;
+color: white;
+padding: 12px;
+border: none;
+font-family: 'Shadows Into Light Two', cursive;
+font-size: 13px;
+margin-top: 30px;
+width: 120px;
+border-radius: 10px;
+}
+.change:hover {
+cursor: pointer;
+}
+h4 , h1{
+  font-family: 'Shadows Into Light Two', cursive;
+  text-align: center;
+  color: #45454D;
+}
+
+.describeSlides{
+  font-size: 17px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #45454D;
+}
+button {
+margin: 10px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #FFE2E2;
+}
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #888888;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight:bolder;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.link:hover{
+  background-color: white;
+  border-radius: 20px;
+}
+.slide {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.picSlide {
+  border-radius: 10px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  border: none;
+}
+.leftBtn {
+  transform: rotate(150deg); 
+}
+.righttBtn {
+  transform: rotate(-20deg);
+}
+.leftBtn:hover, .righttBtn:hover {
+cursor: pointer;
+zoom: 80%;
+}
+.contForm {
+display: flex;
+border: #45454D;
+color: #45454D;
+font-family: 'Shadows Into Light Two', cursive;
+}
+.inputTextBtn{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+  width: 400px;
+  margin-left: 150px;
+}
+.contLocation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 7%;
+}
+.social {
+padding: 10px;
+cursor: pointer;
+}
+.string {
+  margin-top: 100px;
+  margin-right: 150px;
+}
+input {
+  height: 30px;
+  padding: 5px;
+}
+textarea {
+  height: 100px;
+  padding: 10px;
+}
+.btnSend {
+  font-family: 'Shadows Into Light Two', cursive;
+  background-color: #FFE2E2;
+  border-radius: 20px;
+  color: #45454D;
+}
+
+
