@@ -109,6 +109,8 @@ align-items: center;
 }
 .picSlide {
   border-radius: 10px;
+  width: 350px;
+  height: 450px;
 }
 .btn {
   display: flex;
@@ -120,9 +122,11 @@ button {
 }
 .leftBtn {
   transform: rotate(150deg); 
+  width: 30px;
 }
 .righttBtn {
   transform: rotate(-20deg);
+  width: 30px;
 }
 .leftBtn:hover, .righttBtn:hover {
 cursor: pointer;
