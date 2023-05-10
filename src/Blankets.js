@@ -1,48 +1,48 @@
 import { useState } from "react"
 import { data } from "./data"
-import next from "./next.png"
+import next from "./images/next.png"
 
 export default function Blankets() {
     const [blankets, setBlankets] = useState(0);
     const [showMore, setShowMore] = useState(false);
-    const {name, image, description} = data[blankets];
+    const { name, image, description } = data[blankets];
 
     const backBlanket = () => {
         setBlankets((blankets => {
             blankets--;
-            if(blankets < 0){
-                return data.length-1;
+            if (blankets < 0) {
+                return data.length - 1;
             }
             return blankets;
         }))
     };
 
     const nextBlanket = () => {
-        setBlankets((blankets =>{
+        setBlankets((blankets => {
             blankets++;
-            if(blankets > data.length-1){
-            blankets = 0;
+            if (blankets > data.length - 1) {
+                blankets = 0;
             }
             return blankets;
         }))
     };
 
-    return(
+    return (
         <div className="cont back slidesAdapt">
             <div className="btn">
-            <button onClick={backBlanket}><img className="leftBtn" src={next} alt="arrow"/></button>;
+                <button onClick={backBlanket}><img className="leftBtn" src={next} alt="arrow" /></button>;
             </div>
 
             <div className="slide">
-            <h1>"{name}"</h1>;
-            <img className="picSlide" src={image} alt="braunyBlanket"/>;
-            <h4 className="describeSlides">{showMore ? description : description.substring(0, 150)+ "..."};
-            <button className="showMoreBtn" onClick={() => setShowMore(!showMore)}>{showMore ?  "Show Less" : "Show More"}</button></h4>;
+                <h1>"{name}"</h1>;
+                <img className="picSlide" src={image} alt="braunyBlanket" />;
+                <h4 className="describeSlides">{showMore ? description : description.substring(0, 150) + "..."};
+                    <button className="showMoreBtn" onClick={() => setShowMore(!showMore)}>{showMore ? "Show Less" : "Show More"}</button></h4>;
             </div>
-            
-                <div className="btn">
-            <button onClick={nextBlanket}><img className="righttBtn" src={next} alt="arrow"/></button>
-                </div>
+
+            <div className="btn">
+                <button onClick={nextBlanket}><img className="righttBtn" src={next} alt="arrow" /></button>
+            </div>
         </div>
     )
 }

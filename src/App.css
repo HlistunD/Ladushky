@@ -1,35 +1,41 @@
 .products {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .product-card {
-padding: 1.5%;
-flex-basis: 16%;
+  padding: 1.5%;
+  flex-basis: 16%;
 }
+
 .prodact-info {
-display: flex;
-flex-direction: column;
-align-items: center;
-font-family: 'Shadows Into Light Two', cursive;
-line-height: 0.1px;
-color: #45454D;
-font-weight:bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Shadows Into Light Two', cursive;
+  line-height: 0.1px;
+  color: #45454D;
+  font-weight: bolder;
 }
+
 .circl {
   border-radius: 50%;
 }
+
 body {
-background-color: #F6F6F6;
+  background-color: #F6F6F6;
 }
+
 .cont {
   display: flex;
   justify-content: center;
 }
+
 .back {
   display: flex;
   justify-content: space-around;
-  background-color: #F0F0F0; 
+  background-color: #F0F0F0;
   padding: 3px;
   margin: 70px;
   margin-top: 20px;
@@ -37,6 +43,7 @@ background-color: #F6F6F6;
   border-radius: 20px;
   width: 90%;
 }
+
 .babyPic {
   box-shadow: 2px 3px 4px #AAAAAA;
   padding: 2px;
@@ -44,6 +51,7 @@ background-color: #F6F6F6;
   margin-left: 15%;
   margin-top: 60px;
 }
+
 .describeLad {
   padding: 10px;
   text-align: center;
@@ -53,98 +61,117 @@ background-color: #F6F6F6;
   margin-right: 10%;
   margin-top: 60px;
 }
+
 .change {
-background-color: #888888;
-color: white;
-padding: 12px;
-border: none;
-font-family: 'Shadows Into Light Two', cursive;
-font-size: 13px;
-margin-top: 30px;
-width: 120px;
-border-radius: 10px;
+  background-color: #888888;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 13px;
+  margin-top: 30px;
+  width: 120px;
+  border-radius: 10px;
 }
+
 .change:hover {
-cursor: pointer;
+  cursor: pointer;
 }
-h4 , h1{
+
+h4,
+h1 {
   font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
   color: #45454D;
 }
 
-.describeSlides{
+.describeSlides {
   font-size: 17px;
   margin-left: 200px;
   margin-right: 200px;
   color: #45454D;
 }
+
 button {
-margin: 10px;
+  margin: 10px;
 }
-nav{
+
+nav {
   display: flex;
   justify-content: center;
   padding: 15px;
   background-color: #FFE2E2;
 }
+
 .link {
   padding: 10px 40px;
   text-decoration: none;
   text-transform: uppercase;
   color: #888888;
   font-family: 'Shadows Into Light Two', cursive;
-  font-weight:bolder;
+  font-weight: bolder;
   text-transform: uppercase;
   font-size: 20px;
 }
-.link:hover{
+
+.link:hover {
   background-color: white;
   border-radius: 20px;
 }
+
 .slide {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .picSlide {
   border-radius: 10px;
   width: 350px;
   height: 450px;
 }
+
 .btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 button {
   border: none;
 }
+
 .leftBtn {
-  transform: rotate(150deg); 
+  transform: rotate(150deg);
   width: 30px;
 }
+
 .righttBtn {
   transform: rotate(-20deg);
   width: 30px;
 }
-.leftBtn:hover, .righttBtn:hover {
-cursor: pointer;
-zoom: 80%;
+
+.leftBtn:hover,
+.righttBtn:hover {
+  cursor: pointer;
+  zoom: 80%;
 }
+
 .contForm {
-display: flex;
-border: #45454D;
-color: #45454D;
-font-family: 'Shadows Into Light Two', cursive;
+  display: flex;
+  border: #45454D;
+  color: #45454D;
+  font-family: 'Shadows Into Light Two', cursive;
 }
-.inputTextBtn{
+
+.inputTextBtn {
   display: flex;
   flex-direction: column;
   margin-top: 7%;
   width: 400px;
   margin-left: 150px;
 }
+
 .contLocation {
   display: flex;
   flex-direction: column;
@@ -152,22 +179,27 @@ font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
   margin-top: 7%;
 }
+
 .social {
-padding: 10px;
-cursor: pointer;
+  padding: 10px;
+  cursor: pointer;
 }
+
 .string {
   margin-top: 100px;
   margin-right: 150px;
 }
+
 input {
   height: 30px;
   padding: 5px;
 }
+
 textarea {
   height: 100px;
   padding: 10px;
 }
+
 .btnSend {
   font-family: 'Shadows Into Light Two', cursive;
   background-color: #FFE2E2;
@@ -175,6 +207,7 @@ textarea {
   color: #45454D;
   cursor: pointer;
 }
+
 .showMoreBtn {
   font-family: 'Shadows Into Light Two', cursive;
   cursor: pointer;
@@ -182,95 +215,119 @@ textarea {
   background-color: #FFE2E2;
   border-radius: 20px;
 }
-@media  all and  (max-width:500px){
+
+@media all and (max-width:500px) {
   .cont {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-}
-.btnFilter {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-left: 70px;
-}
-.contForm {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-}
-.inputTextBtn {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-left: 5px;
-  width: 300px;
-}
-.string {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-right: 5px;
-  margin-top: 10px;
-}
-nav {
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 25px;
-}
-.back {
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px;
-  margin: 10px;
-}
-.babyPic {
-  margin-top: 20px;
-  padding: 0px;
-}
-.slidesAdapt {
-  flex-wrap: wrap;  
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 5px;
-}
-.btn {
-  width: 5px;
-}
-.leftBtn {
-  display: none;
-}
-.slide {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 200px;
-  margin-right: 300px;
-}
-.product{
-  flex-wrap: wrap; 
-}
-}
-@media  all and  (max-width:820px){
+  }
+
+  .btnFilter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 70px;
+  }
+
   .contForm {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
   }
+
+  .inputTextBtn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 5px;
+    width: 300px;
+  }
+
+  .string {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .back {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin: 10px;
+  }
+
+  .babyPic {
+    margin-top: 20px;
+    padding: 0px;
+  }
+
+  .slidesAdapt {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+  }
+
+  .btn {
+    width: 5px;
+  }
+
+  .leftBtn {
+    display: none;
+  }
+
+  .slide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 300px;
+  }
+
+  .product {
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width:820px) {
+  .contForm {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+
   .inputTextBtn {
     display: flex;
     flex-wrap: wrap;
     margin-left: 5px;
   }
+
   .ladushkyGen {
     display: flex;
     flex-direction: column;
   }
 
+  .string {
+    margin: auto;
+  }
+
+  .back {
+    margin: auto;
+  }
 }

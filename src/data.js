@@ -1,19 +1,19 @@
-import Brauny from "./brauny.jpeg";
-import Milk from "./milk.jpeg";
-import Kitty from "./kitty.jpeg";
-import Wave from "./wave.jpeg";
-import Warm from "./warm.jpeg";
-import Sunny from "./sunny.jpeg";
-import Roze from "./roze.jpeg";
+import Brauny from "./images/brauny.jpeg";
+import Milk from "./images/milk.jpeg";
+import Kitty from "./images/kitty.jpeg";
+import Wave from "./images/wave.jpeg";
+import Warm from "./images/warm.jpeg";
+import Sunny from "./images/sunny.jpeg";
+import Roze from "./images/roze.jpeg";
 
-export const data =[
+export const data = [
   {
     id: 1,
-    name:"Brauny",
+    name: "Brauny",
     color: "dark",
     material: "cotton 55% and 45% acrylic",
     size: "100/89",
-    price: "200", 
+    price: "200",
     filterItem: "light",
     sortItem: "withoutPic",
     image: Brauny,
@@ -26,7 +26,7 @@ export const data =[
     material: "cotton 100%",
     color: "light",
     size: "135/85",
-    price: "200", 
+    price: "200",
     filterItem: "light",
     sortItem: "withoutPic",
     image: Milk,
@@ -39,9 +39,9 @@ export const data =[
     material: "wool 55% and 45% polyester,lining 100% cotton",
     color: "dark",
     size: "90/98",
-    price: "200", 
+    price: "200",
     filterItem: "warm",
-    sortItem: "withPic", 
+    sortItem: "withPic",
     image: Kitty,
     description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
     showMore: "false",
@@ -52,7 +52,7 @@ export const data =[
     material: "cotton 57%, 40% acrylic and 3% polyester",
     color: "colored",
     size: "108/96",
-    price: "200", 
+    price: "200",
     filterItem: "light",
     sortItem: "withoutPic",
     image: Wave,
@@ -66,7 +66,7 @@ export const data =[
     color: "dark",
     size: "From 0 to 6 mounths old",
     price: "200",
-    filterItem: "warm", 
+    filterItem: "warm",
     sortItem: "withoutPic",
     image: Warm,
     description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
@@ -78,7 +78,7 @@ export const data =[
     material: "cotton 67% and 33% viscose",
     color: "colored",
     size: "100/80",
-    price: "200", 
+    price: "200",
     filterItem: "light",
     sortItem: "withoutPic",
     image: Sunny,
@@ -92,7 +92,7 @@ export const data =[
     color: "colored",
     size: "112/74",
     price: "200",
-    filterItem: "warm", 
+    filterItem: "warm",
     sortItem: "withoutPic",
     image: Roze,
     description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
