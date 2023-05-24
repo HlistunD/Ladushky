@@ -17,8 +17,6 @@ export const data = [
     filterItem: "light",
     sortItem: "withoutPic",
     image: Brauny,
-    description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
-    showMore: "false",
   },
   {
     id: 2,
@@ -30,8 +28,6 @@ export const data = [
     filterItem: "light",
     sortItem: "withoutPic",
     image: Milk,
-    description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
-    showMore: "false",
   },
   {
     id: 3,
@@ -43,8 +39,6 @@ export const data = [
     filterItem: "warm",
     sortItem: "withPic",
     image: Kitty,
-    description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
-    showMore: "false",
   },
   {
     id: 4,
@@ -56,8 +50,6 @@ export const data = [
     filterItem: "light",
     sortItem: "withoutPic",
     image: Wave,
-    description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
-    showMore: "false",
   },
   {
     id: 5,
@@ -69,8 +61,6 @@ export const data = [
     filterItem: "warm",
     sortItem: "withoutPic",
     image: Warm,
-    description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
-    showMore: "false",
   },
   {
     id: 6,
@@ -82,8 +72,6 @@ export const data = [
     filterItem: "light",
     sortItem: "withoutPic",
     image: Sunny,
-    description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
-    showMore: "false",
   },
   {
     id: 7,
@@ -95,7 +83,5 @@ export const data = [
     filterItem: "warm",
     sortItem: "withoutPic",
     image: Roze,
-    description: "I create magic blankets for newborn baby and oldest.Generally I use natural materials, prefer cotton, wool (antialergic), and sometimes I include a little bit viscose etc. to lighten or make the blanket more durable. I make different size and design it allows cover baby immediately after birth and then use it in the interior of the children's room. Absolutly all my blankets are handmade with love. And I hope that you'll get one for your little baby.",
-    showMore: "false",
   },
-]
+];
