@@ -22,7 +22,6 @@ export default function Navigation() {
         </nav>
         <Routes>
             <Route exact path="/" component={Ladushky} />
-            <Route path="/ladushky" element={<Ladushky />} />
             <Route path="/blankets" element={<Blankets />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/contacts" element={<Contact />} />
