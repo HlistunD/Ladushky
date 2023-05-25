@@ -122,7 +122,7 @@ button {
   font-size: 40px;
 }
 .descriptionSlides h4{
-font-size: 20px;
+  font-size: 20px;
 }
 
 .products {
@@ -212,11 +212,33 @@ font-size: 20px;
   .contLocation{
   margin-bottom: 45%;
   }
+  .link:hover {
+    background-color: white;
+    border-radius: 20px;
+  }
+  button {
+    border: none;
+    margin: 10px;
+  }
+  .change:hover {
+    cursor: pointer;
+  }
 }
 
 @media all and (max-width:820px) {
   .ladushkyGen{
   margin-top: 20%;
   gap: 60px;
+  }
+  .link:hover {
+    background-color: white;
+    border-radius: 20px;
+  }
+  button {
+    border: none;
+    margin: 10px;
+  }
+  .change:hover {
+    cursor: pointer;
   }
 }
